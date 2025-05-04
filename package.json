@@ -1,0 +1,28 @@
+{
+  "name": "stepflow",
+  "version": "1.0.0",
+  "description": "Sistema de e-commerce para venda de tênis online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alissonj07/stepFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alissonj07/stepFlow/issues"
+  },
+  "homepage": "https://github.com/Alissonj07/stepFlow#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-simple": "^0.5.6"
+  }
+}
