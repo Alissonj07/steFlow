@@ -1,0 +1,54 @@
+### Listar Funcionários
+GET http://localhost:3000/api/funcionarios
+Content-Type: application/json
+
+###
+
+### Criar Funcionário
+POST http://localhost:3000/api/funcionarios
+Content-Type: application/json
+
+{
+  "nome": "Carlos Pereira",
+  "cargo": "Gerente",
+  "salario": 4000
+}
+
+###
+
+### Atualizar Funcionário
+PUT http://localhost:3000/api/funcionarios/1
+Content-Type: application/json
+
+{
+  "salario": 2600
+}
+
+###
+
+### Deletar Funcionário
+DELETE http://localhost:3000/api/funcionarios/2
+Content-Type: application/json
+
+###
+
+### Listar Vendas
+GET http://localhost:3000/api/vendas
+Content-Type: application/json
+
+###
+
+### Criar Venda
+POST http://localhost:3000/api/vendas
+Content-Type: application/json
+
+{
+  "cliente": "João Silva",
+  "produtos": [
+    {"idProduto": 1, "quantidade": 2},
+    {"idProduto": 3, "quantidade": 1}
+  ],
+  "total": 1699.8,
+  "data": "2025-05-10"
+}
+
