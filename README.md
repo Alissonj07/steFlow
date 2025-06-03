@@ -21,3 +21,14 @@ Como Funciona: Usuários: Podem visualizar e buscar os tênis disponíveis na lo
 Administradores: Podem cadastrar novos produtos e atualizar a quantidade de estoque.
 
 Este projeto é uma solução simples para gerenciar a venda de tênis em uma plataforma de e-commerce, ideal para quem deseja aprender a construir um backend básico com JavaScript.
+
+### Gestão de Funcionários
+- Listar, criar, atualizar e deletar funcionários.
+
+### Processo de Vendas
+- Registrar vendas, listar vendas existentes.
+- Cada venda contém cliente, lista de produtos com quantidade, total e data.
+
+### Máquinas de Estados para Representações de Vendas
+- Consultar estado atual da venda.
+- Atualizar estado da venda com validação dos estados permitidos (pendente, confirmada, cancelada, finalizada).
